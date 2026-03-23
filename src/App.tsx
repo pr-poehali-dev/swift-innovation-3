@@ -20,14 +20,14 @@ function App() {
             </div>
           </div>
 
-          <p className="text-primary tracking-[0.3em] uppercase text-sm mb-6">С 2024 года</p>
+          <p className="text-primary tracking-[0.3em] uppercase text-sm mb-6">Приватный инвестиционный клуб</p>
 
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 leading-tight">
-            <span className="text-gold-gradient">Золотой</span>Капитал
+            <span className="text-gold-gradient">Инвест</span>Проект
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-            Эксклюзивный клуб для взыскательных инвесторов, открывающий доступ к уникальным возможностям в альтернативных активах.
+            Интеллектуальные инвестиции для тех, кто мыслит на перспективу. Доступ к проверенным инструментам с доходностью выше рынка.
           </p>
 
           {/* Decorative bottom element */}
@@ -62,15 +62,15 @@ function App() {
             <div>
               <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наша философия</p>
               <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 leading-tight text-balance">
-                Где видение встречает возможности
+                Капитал, который работает на вас
               </h2>
             </div>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-lg">
-                В мире обычных инвестиций мы ищем исключительное. ЗолотойКапитал объединяет избранный круг дальновидных инвесторов, которые понимают, что истинное богатство строится через доступ к возможностям, недоступным массовому рынку.
+                Мы убеждены: каждый человек заслуживает доступа к инвестиционным инструментам, которые раньше были доступны только избранным. ИнвестПроект открывает двери в мир профессиональных инвестиций с прозрачными условиями и реальными результатами.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                От музейного изобразительного искусства до винтажных автомобилей высшего класса, от редких коллекционных предметов до новых альтернативных активов — мы отбираем, проверяем и представляем только исключительное.
+                От консервативных облигаций до высокодоходных проектов — мы подбираем стратегию под ваш профиль риска и финансовые цели, сопровождая вас на каждом шаге инвестиционного пути.
               </p>
             </div>
           </div>
@@ -82,24 +82,23 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наши направления</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">Кураторское совершенство</h2>
+            <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">Инструменты роста капитала</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <ServiceCard
-              title="Изобразительное искусство"
-              description="Доступ к работам музейного качества от признанных мастеров и современных визионеров, отобранных экспертами мирового уровня."
+              title="Портфельные инвестиции"
+              description="Диверсифицированные портфели из акций, облигаций и ETF с профессиональным управлением и ежемесячной отчётностью."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <path d="M21 15l-5-5L5 21" />
+                  <path d="M3 3v18h18" />
+                  <path d="M7 16l4-4 4 4 4-6" />
                 </svg>
               }
             />
             <ServiceCard
-              title="Редкие коллекции"
-              description="От винтажных часов до исторических реликвий — каждый предмет с подтвержденной подлинностью и провенансом высочайшего стандарта."
+              title="Частные проекты"
+              description="Закрытые инвестиционные раунды в перспективные бизнесы с проверенной командой и понятной бизнес-моделью."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
                   <circle cx="12" cy="12" r="9" />
@@ -108,13 +107,12 @@ function App() {
               }
             />
             <ServiceCard
-              title="Классические автомобили"
-              description="Исключительные автомобили исторической значимости, каждый из которых представляет вершину автомобильного искусства и инженерии."
+              title="Недвижимость"
+              description="Коллективные вложения в доходную недвижимость — жилую и коммерческую — с низким порогом входа и стабильным рентным доходом."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <path d="M5 17h14M6 9l2-4h8l2 4M4 14h16v3H4z" />
-                  <circle cx="7" cy="17" r="2" />
-                  <circle cx="17" cy="17" r="2" />
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                  <polyline points="9 22 9 12 15 12 15 22" />
                 </svg>
               }
             />
@@ -135,10 +133,10 @@ function App() {
 
             <blockquote className="relative z-10">
               <p className="font-serif text-2xl md:text-3xl text-foreground leading-relaxed italic mb-8">
-                Членство в ЗолотойКапитал изменило мой подход к альтернативным инвестициям. Качество возможностей и уровень сервиса просто несравнимы.
+                Благодаря ИнвестПроекту мой капитал вырос на 34% за год. Впервые я понял, как по-настоящему работают деньги.
               </p>
               <footer className="text-muted-foreground">
-                <span className="text-primary">—</span> Уважаемый член клуба,{" "}
+                <span className="text-primary">—</span> Участник клуба,{" "}
                 <span className="text-primary">Москва</span>
               </footer>
             </blockquote>
@@ -156,9 +154,9 @@ function App() {
           <div className="text-center mb-12">
             <ArtDecoDivider variant="chevron" />
             <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Начните свой путь</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 text-balance">Запросить приглашение</h2>
+            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 text-balance">Оставить заявку</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              Членство предоставляется только по приглашению. Оставьте заявку, и наш представитель свяжется с вами для обсуждения возможного сотрудничества.
+              Заполните форму, и наш инвестиционный консультант свяжется с вами в течение 24 часов для бесплатной консультации.
             </p>
           </div>
 
@@ -180,7 +178,7 @@ function App() {
           <div className="flex flex-col items-center gap-6">
             <div className="flex items-center gap-4">
               <div className="w-12 h-px bg-primary" />
-              <span className="font-serif text-xl text-foreground">ЗолотойКапитал</span>
+              <span className="font-serif text-xl text-foreground">ИнвестПроект</span>
               <div className="w-12 h-px bg-primary" />
             </div>
 
